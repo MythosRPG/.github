@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/68667121?s=400&u=27e7e3be1258712357abad5be29af0cecd743015&v=4" alt="StoreIO BoilerPlate">
   <br />
-  <h1 align="center">Unicode Software House!</h1>
+  <h1 align="center">Unicode Software House</h1>
 </p>
 <p align="center">
   Somos uma empresa apaixonada por tecnologia, e nossa missão é impulsionar o mundo do comércio eletrônico por meio de soluções inovadoras.
