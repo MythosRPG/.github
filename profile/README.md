@@ -79,8 +79,8 @@ Tem uma ideia ou quer colaborar conosco? Não hesite em nos contatar:
 
 - **Email:** parcerias@unicode.cx
 - **Site:** [unicode.cx](https://unicode.cx)
-- **LinkedIn:** [Unicode](https://www.linkedin.com/company/unicode-software-house/)
-- **Instagram:** [@UnicodeDev](https://www.instagram.com/unicodehouse/)
+- **LinkedIn:** [Unicode - Software House](https://www.linkedin.com/company/unicode-software-house/)
+- **Instagram:** [@UnicodeHouse](https://www.instagram.com/unicodehouse/)
 
 ---
 
