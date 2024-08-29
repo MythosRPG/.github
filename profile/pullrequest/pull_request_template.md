@@ -1,58 +1,58 @@
-## Qual o propósito desse pull request ?
+## Qual é o propósito deste pull request?
 
-<em>Considerando o contexto, qual é o problema que vamos resolver? Onde no quadro geral do projeto em si nosso problema se encaixa? Escreva a baixo sobre o contexto e o problema em si</em>
+_Qual é o problema que estamos resolvendo e como ele se encaixa no contexto geral do projeto? Descreva o contexto e o problema de forma clara._
 
 ## Tipo de mudança
 
-<em>Delete as opções que não se encaixem</em>
+_Selecione as opções que melhor descrevem o tipo de mudança realizada:_
 
-- [ ] Bug fix (Uma mudança que corrige um problema)
-- [ ] New feature (Mudança que adiciona funcionalidade)
-- [ ] Breaking change (Correção ou recurso que faria com que a funcionalidade existente não funcionasse como esperado)
-- [ ] Esta alteração requer uma atualização da documentação
+- [ ] Correção de bug (Ajuste que corrige um problema)
+- [ ] Nova funcionalidade (Adição de uma nova funcionalidade)
+- [ ] Alteração que quebra a compatibilidade (Mudança que afeta o funcionamento esperado de funcionalidades existentes)
+- [ ] Esta mudança requer uma atualização na documentação
 
-## Como a mudança funciona ?
+## Como a mudança funciona?
 
-<em>Descreva a funcionalidade criada.</em>
+_Descreva a funcionalidade criada ou a correção realizada de forma detalhada._
 
-## Como isso pode ser testado ?
+## Como isso pode ser testado?
 
-<em>Descreva como podemos verificar suas mudanças. Provendo instruções para reproduzir. E adicione qual quer detalhe relevante para esse review.</em>
+_Forneça instruções detalhadas para que as mudanças possam ser testadas. Inclua passos para reproduzir o problema, cenários de teste e outros detalhes relevantes para a revisão._
 
 > Descrição:
 
 > Workspace:
 
-## Qual task esse pull request soluciona ?
+## Qual task este pull request resolve?
 
-<em>Informe o link da tarefa</em>
+_Adicione o link para a tarefa correspondente no sistema de gerenciamento de projetos._
 
-> https://google.com.br/
+> [Task Link](https://google.com.br/)
 
 ## Referências
 
-<em>Espalhe o conhecimento: qualquer conteúdo que você usou para criar este PR vale a pena compartilhar</em>
+_Compartilhe qualquer conteúdo relevante que tenha sido usado para criar este PR, como artigos, documentações ou discussões anteriores._
 
-<em>Dica extra: adicionar referências a questões relacionadas ou mencionar pessoas importantes para este PR pode ser bom para o processo de documentação e revisão</em>
+_Dica: referenciar questões relacionadas ou mencionar pessoas-chave pode melhorar o processo de revisão e documentação._
 
 ## Checklist
 
-**PR Titulo e Mensagens de Commit**
+### **Título do PR e Mensagens de Commit**
 
-- [ ] O título do PR e as mensagens de commit seguem o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-  - Prefixos Disponíveis: `feat`, `fix`, `chore`, `docs`, `style`, `refactor`, `perf`, and `test`
+- [ ] O título do PR e as mensagens de commit seguem o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+  - Prefixos permitidos: `feat`, `fix`, `chore`, `docs`, `style`, `refactor`, `perf`, `test`
 
-**PR Descrição**
+### **Descrição do PR**
 
-- [ ] Adicionar a label do PR de acordo com o contexto do mesmo - `Bug`, `Documentation`, `Done`, `Duplicate`, `Feature`, `Help Wanted`, `Invalid`, `Question`, `Request Changes`, `With Conflict`, `WontFix`, e `Work In Progress`
+- [ ] Adicionar a label adequada ao PR, como `Bug`, `Feature`, `Help Wanted`, `Work In Progress`, entre outras.
 
-**Documentação**
+### **Documentação**
 
-- [ ] PR description
+- [ ] A descrição do PR está completa e clara.
 
-**Código**
+### **Código**
 
-- [ ] Meu código segue os padrões de estilo do projeto
-- [ ] Eu fiz uma autoavaliação do meu próprio código
-- [ ] Eu comentei meu código, especialmente em áreas difíceis de entender
-- [ ] Minhas alterações não geram novos warnings
+- [ ] O código segue os padrões de estilo definidos pelo projeto.
+- [ ] Fiz uma revisão cuidadosa do meu próprio código.
+- [ ] Comentei partes do código que possam ser difíceis de entender.
+- [ ] Minhas alterações não introduzem novos warnings.
