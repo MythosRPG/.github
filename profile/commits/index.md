@@ -1,27 +1,37 @@
-O Padrão de Commits é uma convenção adotada pela comunidade de desenvolvimento de software para padronizar as mensagens de commit usadas ao versionar um projeto no controle de versão, como o Git. Essas mensagens descrevem as alterações feitas em cada commit e ajudam a manter um histórico de alterações claro e compreensível.
+## Padrão de Commits
 
-Uma das implementações populares do Padrão de Commits é conhecida como **Conventional Commits** *(Commits Convencionais)*. O **Conventional Commits** define um conjunto de regras para a formatação das mensagens de commit, permitindo que desenvolvedores e equipes mantenham um registro consistente e estruturado do trabalho realizado. O formato geral das mensagens de commit no **Conventional Commits** segue o padrão:
+O Padrão de Commits é uma convenção amplamente adotada pela comunidade de desenvolvimento de software para padronizar as mensagens de commit em sistemas de controle de versão, como o Git. Este padrão tem como objetivo manter o histórico de alterações claro e compreensível, permitindo uma colaboração mais eficiente entre os membros da equipe.
 
-```
-<tipo>[escopo opcional]: <descrição>
-```
-O **tipo** indica a natureza do commit, podendo ser:
-- **feat**: para introduzir uma nova funcionalidade;
-- **fix**: para correção de bugs;
-- **docs**: para atualizações de documentação;
-- **style**: para mudanças que não afetam o código em si (como formatação, espaçamento, etc.);
-- **refactor**: para alterações de código que não corrigem bugs nem adicionam novas - funcionalidades;
-- **test**: para adicionar ou modificar testes;
-- **chore**: para alterações relacionadas a tarefas de construção, ferramentas, etc.
+Uma implementação popular desse padrão é o **Conventional Commits**. Essa abordagem define regras específicas para a formatação das mensagens de commit, proporcionando um registro consistente e estruturado do trabalho realizado. O formato básico de uma mensagem de commit no **Conventional Commits** é:
 
-O **escopo opcional** é usado para fornecer um contexto adicional sobre a alteração, como o módulo ou componente específico afetado.
+```<tipo>[escopo opcional]: <descrição>```
 
-A **descrição** é uma breve explicação sobre a alteração realizada no commit.
+### Tipos de Commits:
 
-<hr />
+- **feat**: Introdução de uma nova funcionalidade.
+- **fix**: Correção de bugs.
+- **docs**: Atualizações de documentação.
+- **style**: Mudanças de formatação ou estilo que não afetam o código (ex.: espaçamento, indentação).
+- **refactor**: Alterações de código que não corrigem bugs nem adicionam funcionalidades novas.
+- **test**: Inclusão ou modificação de testes.
+- **chore**: Tarefas de manutenção, como mudanças em scripts ou configurações.
 
-A adoção do Padrão de Commits e do **Conventional Commits** pode trazer benefícios significativos para a colaboração em projetos, pois facilita a leitura e a compreensão do histórico de alterações. Além disso, ferramentas de automação podem aproveitar esse padrão para realizar ações específicas com base no tipo de commit, como gerar notas de lançamento automaticamente, executar testes relevantes, entre outros.
+### Escopo Opcional:
 
-**Husky** é uma ferramenta popular usada em projetos do Git para automatizar a execução de scripts antes de determinados eventos, como um commit ou push. Ele permite definir ganchos *(hooks)* personalizados que são acionados automaticamente para realizar tarefas específicas. No contexto dos commits convencionais, o **Husky** é frequentemente usado para garantir que as mensagens de commit sigam o formato correto do **Conventional Commits**.
+O escopo, embora opcional, oferece contexto adicional sobre a alteração, identificando, por exemplo, o módulo ou componente específico impactado pela mudança.
 
-**Commit lint** é uma biblioteca que pode ser usada juntamente com o **Husky** para validar as mensagens de commit em relação às regras definidas pelo **Conventional Commits**. Ele pode verificar se o formato está correto, se o tipo de commit é válido e se o escopo está sendo usado adequadamente. Dessa forma, o **Commit lint** ajuda a manter a consistência e a conformidade das mensagens de commit no projeto.
+### Descrição:
+
+A descrição deve ser uma breve e clara explicação da alteração realizada no commit.
+
+---
+
+### Benefícios do Padrão de Commits
+
+A adoção do **Conventional Commits** traz benefícios significativos para a colaboração em projetos, facilitando a leitura e compreensão do histórico de alterações. Além disso, ferramentas de automação podem aproveitar esse padrão para realizar ações específicas com base no tipo de commit, como gerar notas de lançamento automaticamente ou executar testes relevantes.
+
+### Ferramentas de Suporte
+
+- **Husky**: Uma ferramenta popular usada em projetos Git para automatizar a execução de scripts antes de eventos como commits ou push. No contexto dos commits convencionais, **Husky** é frequentemente utilizado para garantir que as mensagens de commit sigam o formato correto.
+  
+- **Commit lint**: Uma biblioteca usada em conjunto com **Husky** para validar as mensagens de commit conforme as regras do **Conventional Commits**. Ele verifica se o formato está correto, se o tipo de commit é válido e se o escopo está sendo usado adequadamente, ajudando a manter a consistência e conformidade das mensagens no projeto.
