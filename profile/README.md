@@ -69,7 +69,7 @@ Adotamos padrões rigorosos para garantir a qualidade do código e a colaboraç�
 
 ## 📝 Licença
 
-Todos os repositórios públicos desta organização estão licenciados sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Todos os repositórios públicos desta organização estão licenciados sob a licença MIT.
 
 ---
 
