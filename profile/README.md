@@ -29,10 +29,10 @@ Na Unicode, acreditamos que a tecnologia pode transformar o comércio eletrônic
 
 ## 📁 Repositórios Destacados
 
-### [VTEX Soho Store Theme](https://github.com/UnicodeDevs/vtex.soho-store-theme)
+### [VTEX - Soho Store Theme](https://github.com/UnicodeDevs/vtex.soho-store-theme)
 Um tema moderno para lojas VTEX, projetado para ser altamente personalizável e otimizado para desempenho.
 
-### [VTEX Store Theme](https://github.com/UnicodeDevs/vtex.store-theme)
+### [VTEX - Store Theme](https://github.com/UnicodeDevs/vtex.store-theme)
 Um tema VTEX com estrutura de pastas e base pronta, projetado para ser altamente personalizável e sem estilizações ou conteúdo pré-definido.
 
 ### [VTEX - Custom Components](https://github.com/UnicodeDevs/vtex.custom-components)
