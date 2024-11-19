@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/68667121?s=400&u=27e7e3be1258712357abad5be29af0cecd743015&v=4" alt="Unicode Software House Logo">
+  <img src="https://avatars.githubusercontent.com/u/188934288?s=200&v=4" alt="Unicode Software House Logo">
   <br />
   <h1 align="center">Unicode Software House</h1>
 </p>
