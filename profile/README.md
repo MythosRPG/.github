@@ -10,14 +10,12 @@
 
 ## 🛠️ Padrões de Contribuição
 
-Adotamos padrões rigorosos para garantir a qualidade do código e a colaboração eficiente. Antes de contribuir, certifique-se de seguir nossas diretrizes:
+Adotamos padrões para garantir a qualidade do código e a colaboração eficiente. Antes de contribuir, certifique-se de seguir nossas diretrizes:
 
 - **[Padrão de Commits](/profile/commits/index.md):** Utilize mensagens de commit claras e descritivas.
 - **[Padrão de Pull Request](/profile/pullrequest/index.md):** Envie pull requests bem documentados e focados.
 - **[Flow Pull Request](/profile/flowpr/index.md):** Siga nosso fluxo de trabalho para garantir uma integração suave.
 - **[Clean Code](/profile/cleancode/index.md):** Mantenha o código limpo, legível e bem documentado.
-
----
 
 ## 🎉 Agradecimentos
 
